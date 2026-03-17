@@ -58,7 +58,7 @@ def update_particles(mouse_x: float, mouse_y: float):
 ## 三、运行效果展示
 
 ### 粒子群演示
-![运行效果](assets/demo.gif)
+![运行效果](assets/demo.gif)\
 *鼠标移动吸引粒子，形成动态团簇*
 
 ---
