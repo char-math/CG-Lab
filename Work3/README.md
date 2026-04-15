@@ -149,6 +149,8 @@ def main():
         gui_points.from_numpy(np_points)
         canvas.circles(gui_points, radius=0.008, color=(1.0, 0.0, 0.0))
 ```
+### 3.5 结果演示
+![运行效果](assets/demo3_1.gif)\
 
 ---
 
@@ -228,48 +230,8 @@ def compute_bspline_curve(control_points, num_segments):
 | 适用场景 | 简单曲线设计 | 复杂形状建模 |
 
 ---
-
-## 五、运行效果展示
-
-### 5.1 GPU 后端调用
-
-```
-[Taichi] version 1.7.4, llvm 15.0.1, commit b4b956fd, win, python 3.12.0
-[Taichi] Starting on arch=vulkan
-```
-
-### 5.2 交互操作说明
-
-| 按键 | 功能 |
-|------|------|
-| 鼠标左键 | 添加控制点 |
-| B 键 | 切换贝塞尔曲线/B样条曲线模式 |
-| A 键 | 切换抗锯齿开关 |
-| C 键 | 清空所有控制点 |
-
-### 5.3 视觉效果
-
-**基础版本**：
-- 红色圆点：控制点
-- 灰色线条：控制多边形
-- 绿色曲线：贝塞尔曲线
-- 曲线边缘有明显锯齿
-
-**选做版本**：
-- 蓝色曲线：B 样条曲线（≥4 个点）
-- 抗锯齿开启后曲线边缘平滑过渡
-- 移动控制点时：
-  - 贝塞尔：整条曲线变化
-  - B 样条：仅局部曲线变化
-
-### 5.4 对象池优化
-
-控制点数量动态变化时，使用固定大小 GPU 缓冲区：
-- 预分配 100 个点的容量
-- 未使用的点设置为屏幕外坐标 (-10, -10)
-- 避免每帧动态分配 GPU 内存
-
----
+### 4.3 结果演示
+![运行效果](assets/demo3_2.gif)\
 
 ## 六、实验总结
 
@@ -304,7 +266,7 @@ def compute_bspline_curve(control_points, num_segments):
 
 ## 七、Git 仓库链接
 
-🔗 https://github.com/char-math/CG-Lab-Work3
+🔗 https://github.com/char-math/CG-Lab/experiment/Work3
 
 ---
 
