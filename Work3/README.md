@@ -266,7 +266,7 @@ def compute_bspline_curve(control_points, num_segments):
 
 ## 七、Git 仓库链接
 
-🔗 https://github.com/char-math/CG-Lab/experiment/Work3
+🔗 https://github.com/char-math/CG-Lab/tree/experiment/work3/Work3
 
 ---
 
