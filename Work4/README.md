@@ -114,7 +114,8 @@ def is_in_shadow(p, light_pos):
 
 ## 四、运行效果展示
 #### 4.1 基础 Phong 模型
-运行 src/Work4/main.py，可通过滑动条实时调节材质参数：
+运行 src/Work4/main.py，可通过滑动条实时调节材质参数：\
+![运行效果](Work4/assets/demo.gif)\
 
 | 参数 | 含义 | 范围 | 默认值 |
 | --- | --- | --- | --- |
@@ -123,15 +124,14 @@ def is_in_shadow(p, light_pos):
 | Ks | 镜面高光系数 | 0.0 ~ 1.0 | 0.5 |
 | Shininess | 高光指数 | 1.0 ~ 128.0 | 32.0 |
 
-![运行效果](Work4/assets/demo.gif)\
 #### 4.2 选做功能
-运行 src/Work4/main1.py，额外提供：
-
+运行 src/Work4/main1.py，额外提供：\
+![运行效果](Work4/assets/demo1.gif)\
 Blinn-Phong 模型切换：高光区域更圆润柔和
 
 硬阴影开关：物体间产生清晰阴影
-![运行效果](Work4/assets/demo1.gif)\
+
 
 ## 五、Git 仓库链接
-🔗 https://github.com/char-math/CG-Lab/tree/experiment/work4
+🔗 https://github.com/char-math/CG-Lab/tree/experiment/work4/Work4 \
 实验完成日期：2026年4月30日
