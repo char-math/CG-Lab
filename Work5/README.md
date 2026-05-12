@@ -85,7 +85,7 @@ for bounce in range(max_bounces):
 ### 2.4 关键公式
 
 **反射向量：**
-$\mathbf{R} = \mathbf{L}_{in} - 2(\mathbf{L}_{in} \cdot \mathbf{N})\mathbf{N}$
+$$ R = L_{in} - 2(L_{in} \cdot N) N $$
 **斯涅尔定律（折射）：**
 $$n_1 \sin\theta_1 = n_2 \sin\theta_2$$
 
@@ -124,13 +124,11 @@ $$n_1 \sin\theta_1 = n_2 \sin\theta_2$$
 ### 4.1 基础光线追踪效果
 
 > 左：红色漫反射球 / 右：银色镜面球 / 地面：棋盘格
-Work5/assets/w5_0.gif
-
+![运行效果](Work5/assets/w5_0.gif)\
 
 ### 4.2 玻璃材质效果（选做）
 
 > 玻璃球：透明、折射、菲涅尔边缘高光
-
 
 ### 4.3 抗锯齿对比（选做）
 
@@ -138,7 +136,8 @@ Work5/assets/w5_0.gif
 |--------|---------|
 | 边缘有明显锯齿 | 边缘平滑过渡 |
 
-
+选做效果展示：
+![运行效果](Work5/assets/w5_1.gif)\
 
 ---
 
