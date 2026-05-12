@@ -152,7 +152,7 @@ $$n_1 \sin\theta_1 = n_2 \sin\theta_2$$
 
 ## 六、Git仓库
 
-🔗 **https://github.com/char-math/CG-Lab/tree/experiment/work5**
+🔗 **https://github.com/char-math/CG-Lab/tree/experiment/work5/Work5**
 
 ---
 
