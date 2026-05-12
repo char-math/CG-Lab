@@ -85,7 +85,7 @@ for bounce in range(max_bounces):
 ### 2.4 关键公式
 
 **反射向量：**
-$$R = L_{in} - 2(L_{in} \cdot N) N$$
+$$R = L_{in} - 2(L_{in} \cdot N) N$$\
 **斯涅尔定律（折射）：**
 $$n_1 \sin\theta_1 = n_2 \sin\theta_2$$
 
