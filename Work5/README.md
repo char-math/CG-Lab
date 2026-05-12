@@ -15,23 +15,14 @@
 采用标准的 src 布局，实现代码与配置的物理隔离：
 
 ```
-CG-Lab/
-├── .venv/                    # Python虚拟环境
-├── assets/                   # 演示资源
-├── src/
-│   ├── Work0/                # 实验一：粒子仿真
-│   ├── Work1/                
-│   ├── Work2/                
-│   ├── Work3/                
-│   ├── Work4/                
-│   └── Work5/                # 实验五：光线追踪
-│       ├── main.py           # 玻璃材质+抗锯齿版本
-│       ├── main1.py          # 基础版本
-│       └── assets/           # 演示用gif
-├── Work5/                    # 独立工作目录
-├── .gitignore
-├── pyproject.toml
-└── README.md
+Work5/
+└── src/          # 演示用gif
+    ├── main.py
+    └── main1.py        # 备用版本
+├── README.md        # 说明文档
+└── assets/          # 演示用gif
+    ├── w5_0.gif
+    └── w5_1.gif
 ```
 
 ---
@@ -94,8 +85,7 @@ for bounce in range(max_bounces):
 ### 2.4 关键公式
 
 **反射向量：**
-$$\mathbf{R} = \mathbf{L}_{in} - 2(\mathbf{L}_{in} \cdot \mathbf{N})\mathbf{N}$$
-
+$\mathbf{R} = \mathbf{L}_{in} - 2(\mathbf{L}_{in} \cdot \mathbf{N})\mathbf{N}$
 **斯涅尔定律（折射）：**
 $$n_1 \sin\theta_1 = n_2 \sin\theta_2$$
 
@@ -135,19 +125,20 @@ $$n_1 \sin\theta_1 = n_2 \sin\theta_2$$
 
 > 左：红色漫反射球 / 右：银色镜面球 / 地面：棋盘格
 
-### 4.2 玻璃材质效果
+
+
+### 4.2 玻璃材质效果（选做）
 
 > 玻璃球：透明、折射、菲涅尔边缘高光
 
-### 4.3 阴影随光源移动
 
-> 光源位置可实时调节，阴影动态变化
-
-### 4.4 抗锯齿对比
+### 4.3 抗锯齿对比（选做）
 
 | 无MSAA | 4x MSAA |
 |--------|---------|
 | 边缘有明显锯齿 | 边缘平滑过渡 |
+
+
 
 ---
 
