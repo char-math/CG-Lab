@@ -157,7 +157,7 @@ loss = loss_silhouette + w_rgb * loss_rgb + w_color * loss_color_smooth
 
 $$A(d) = \text{sigmoid}\left(\frac{d}{\sigma}\right)$$
 
-其中 $\sigma$ 控制边缘模糊程度，$\sigma$ 越大梯度传播范围越广。
+其中 $\sigma$ 控制边缘模糊程度, $\sigma$ 越大梯度传播范围越广。
 
 ### 4.2 正则化的重要性
 
