@@ -18,13 +18,13 @@
 ```
 CG-Lab/
 ├── work6/
-│   ├── main.ipynb              # 基础实验：剪影监督形状优化
-│   ├── main1.ipynb             # 选做实验：RGB监督纹理联合优化
-│   ├── cow.obj                 # 目标奶牛模型
-│   ├── cow_shape_only.obj      # 基础实验输出（形状）
-│   └── cow_textured_final.obj  # 选做实验输出（彩色）
-├── .gitignore
-└── README.md
+   ├── main.ipynb              # 基础实验：剪影监督形状优化
+   ├── main1.ipynb             # 选做实验：RGB监督纹理联合优化
+   ├── cow.obj                 # 目标奶牛模型
+   ├── cow_shape_only.obj      # 基础实验输出（形状）
+   ├── cow_textured_final.obj  # 选做实验输出（彩色）
+   ├── .gitignore
+   └── README.md
 ```
 
 **代码组织结构：**
@@ -121,6 +121,8 @@ loss = loss_silhouette + w_rgb * loss_rgb + w_color * loss_color_smooth
 **剪影优化过程：**
 - 红色轮廓为预测剪影，灰色背景为目标剪影
 - 随着迭代进行，红色轮廓逐渐与目标重合
+<img width="938" height="680" alt="屏幕截图 2026-05-25 200312" src="https://github.com/user-attachments/assets/847bda9f-66d9-4545-802f-9fdd3115b9ee" />
+<img width="940" height="382" alt="屏幕截图 2026-05-25 201036" src="https://github.com/user-attachments/assets/9c995f69-bff1-4a1f-8cc1-b05c51973958" />
 
 ### 3.2 选做实验效果
 
@@ -134,6 +136,8 @@ loss = loss_silhouette + w_rgb * loss_rgb + w_color * loss_color_smooth
 - 形状逐渐从球体变为奶牛
 - 颜色从灰色逐渐出现棕色渐变
 - RGB图像与目标图像的差异不断减小
+<img width="1361" height="1102" alt="屏幕截图 2026-05-25 201007" src="https://github.com/user-attachments/assets/dd790bd2-f41c-4d66-9e1c-6e4f4a8d3a33" />
+<img width="1357" height="694" alt="屏幕截图 2026-05-25 201020" src="https://github.com/user-attachments/assets/068feef3-e5ca-4422-ba48-f6707eb4bc21" />
 
 ### 3.3 输出文件
 
