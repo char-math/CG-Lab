@@ -209,7 +209,7 @@ else:               # 后期：重纹理
 
 ## 七、Git仓库链接
 
-🔗 **https://github.com/char-math/CG-Lab/tree/experience/work6**
+🔗 **https://github.com/char-math/CG-Lab/tree/experience/work6/work6**
 
 ---
 
