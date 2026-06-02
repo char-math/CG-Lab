@@ -147,8 +147,6 @@ def handle_sphere_collision(pos, vel):
 
 **三种积分方法对比：**
 
-![运行效果](Work7/assets/w7_0.gif)\
-
 <img width="480" height="270" alt="w7_0" src="https://github.com/user-attachments/assets/80f168dc-715c-4fd9-8403-b54524bbdf8d" />
 
 
@@ -166,7 +164,6 @@ def handle_sphere_collision(pos, vel):
 
 三块布料并排对比效果：
 
-![运行效果](Work7/assets/w7_1.gif)\
 <img width="480" height="336" alt="w7_1" src="https://github.com/user-attachments/assets/b571ae41-3b40-411a-8737-da1719e6237c" />
 
 | 位置 | 颜色 | 弹簧配置 | 视觉效果 |
@@ -181,7 +178,6 @@ def handle_sphere_collision(pos, vel):
 
 ### 3.3 球体碰撞效果（选做）
 
-![运行效果](Work7/assets/w7_2.gif)\
 <img width="480" height="492" alt="w7_2" src="https://github.com/user-attachments/assets/b6b93b39-d88e-4c8d-9bb3-da320795648e" />
 
 
