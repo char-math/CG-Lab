@@ -1,4 +1,4 @@
-# 计算机图形学实验报告
+[# 计算机图形学实验报告
 
 ## 实验七：基于质点-弹簧模型的布料模拟系统
 
@@ -149,6 +149,9 @@ def handle_sphere_collision(pos, vel):
 
 ![运行效果](Work7/assets/w7_0.gif)\
 
+<img width="480" height="270" alt="w7_0" src="https://github.com/user-attachments/assets/80f168dc-715c-4fd9-8403-b54524bbdf8d" />
+
+
 | 方法 | 稳定性 | 视觉效果 | 适用场景 |
 |------|--------|----------|----------|
 | 显式欧拉 | 差（易爆炸） | 数值发散快 | 小时间步长 |
@@ -164,6 +167,8 @@ def handle_sphere_collision(pos, vel):
 三块布料并排对比效果：
 
 ![运行效果](Work7/assets/w7_1.gif)\
+<img width="480" height="336" alt="w7_1" src="https://github.com/user-attachments/assets/b571ae41-3b40-411a-8737-da1719e6237c" />
+
 | 位置 | 颜色 | 弹簧配置 | 视觉效果 |
 |------|------|----------|----------|
 | 左 | 蓝色 | 仅结构弹簧（弱） | 像渔网，下端明显变宽 |
@@ -177,6 +182,8 @@ def handle_sphere_collision(pos, vel):
 ### 3.3 球体碰撞效果（选做）
 
 ![运行效果](Work7/assets/w7_2.gif)\
+<img width="480" height="492" alt="w7_2" src="https://github.com/user-attachments/assets/b6b93b39-d88e-4c8d-9bb3-da320795648e" />
+
 
 - 布料从上方下落，与红色球体碰撞
 - 布料自然覆盖在球体表面并滑落
@@ -286,7 +293,7 @@ def compute_forces_on(...):
 
 ## 八、Git 仓库链接
 
-🔗 **https://github.com/char-math/CG-Lab/tree/experience/work7/work7**
+🔗 **https://github.com/char-math/CG-Lab/tree/experiment/work7/Work7**
 
 ---
 
