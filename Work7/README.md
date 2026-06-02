@@ -19,9 +19,14 @@
 ```
 CG-Lab/
 ├── work7/
-   ├── cloth_basic.py           # 基础实验：三种积分方法对比
-   ├── cloth_spring_compare.py  # 选做实验：弹簧类型对比
-   ├── cloth_collision.py       # 选做实验：球体碰撞
+   ├── src/
+   │   ├── main.py           # 基础实验：三种积分方法对比
+   │   ├── main1.py          # 选做实验：弹簧类型对比
+   │   └── main2.py          # 选做实验：球体碰撞
+   ├── assets/
+   │   ├── w7_0.py           # 基础实验：三种积分方法对比
+   │   ├── w7_1.py          # 选做实验：弹簧类型对比
+   │   └── w7_2.py 
    └── README.md
 ```
 
