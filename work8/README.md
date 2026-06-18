@@ -231,7 +231,7 @@ def create_pose_animation(model, betas, joint_id, output_path, num_frames=30):
 
 ## 五、Git仓库链接
 
-🔗 **https://github.com/char-math/CG-Lab**
+🔗 **https://github.com/char-math/CG-Lab/tree/work8/work8**
 
 ---
 
