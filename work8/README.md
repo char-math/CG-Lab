@@ -148,22 +148,22 @@ def create_pose_animation(model, betas, joint_id, output_path, num_frames=30):
 
 ### 3.1 四阶段对比图
 
-![comparison_grid](work8/assets/outputs_animation/comparison_grid.png)
+![comparison_grid](assets/outputs_animation/comparison_grid.png)\
 
 ### 3.2 全关节主导权重分布
 
-![all_joint_weights](work8/assets/outputs_animation/all_joint_weights.png)
+![all_joint_weights](assets/outputs_animation/all_joint_weights.png)\
 
 *不同颜色代表不同关节的主导控制区域，颜色强度表示主导权重的强弱。*
 
 ### 3.3 姿态动画（选做）
 
 单关节旋转
-![pose](work8/assets/outputs_animation/pose_animation.gif) 
+![pose](assets/outputs_animation/pose_animation.gif)\ 
 多关节协同
-![multi](work8/assets/outputs_animation/multi_joint_animation.gif) 
+![multi](assets/outputs_animation/multi_joint_animation.gif)\
 行走循环
-![walk](work8/assets/outputs_animation/walking_animation.gif)
+![walk](assets/outputs_animation/walking_animation.gif)\
 
 ---
 
