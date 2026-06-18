@@ -233,6 +233,4 @@ def create_pose_animation(model, betas, joint_id, output_path, num_frames=30):
 
 🔗 **https://github.com/char-math/CG-Lab/tree/work8/work8**
 
----
 
-**实验完成日期：2026年6月17日**
