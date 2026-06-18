@@ -148,27 +148,23 @@ def create_pose_animation(model, betas, joint_id, output_path, num_frames=30):
 
 ### 3.1 四阶段对比图
 
-<div align="center">
-
-| (a) 模板+蒙皮权重 | (b) 形状校正+关节回归 |
-|:---:|:---:|
-| ![stage_a](outputs_basic/stage_a_template_weights.png) | ![stage_b](outputs_basic/stage_b_shaped_joints.png) |
-| **(c) 姿态校正偏移量** | **(d) 最终LBS结果** |
-| ![stage_c](outputs_basic/stage_c_pose_offsets.png) | ![stage_d](outputs_basic/stage_d_lbs_result.png) |
-
-</div>
+![comparison_grid](work8/assets/outputs_animation/comparison_grid.png)
 
 ### 3.2 全关节主导权重分布
 
-![all_joint_weights](outputs_basic/all_joint_weights.png)
+![all_joint_weights](work8/assets/outputs_animation/all_joint_weights.png)
 
 *不同颜色代表不同关节的主导控制区域，颜色强度表示主导权重的强弱。*
 
 ### 3.3 姿态动画（选做）
 
-| 单关节旋转 | 多关节协同 | 行走循环 |
-|:---:|:---:|:---:|
-| ![pose](outputs_animation/pose_animation.gif) | ![multi](outputs_animation/multi_joint_animation.gif) | ![walk](outputs_animation/walking_animation.gif) |
+单关节旋转
+![pose](work8/assets/outputs_animation/pose_animation.gif) 
+多关节协同
+![multi](work8/assets/outputs_animation/multi_joint_animation.gif) 
+行走循环
+![walk](work8/assets/outputs_animation/walking_animation.gif)
+
 ---
 
 ## 四、思考题解答
